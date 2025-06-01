@@ -1,0 +1,245 @@
+header{
+    background-color: black;
+    height: 10%;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    opacity: 80%;
+    display: flex;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+     font-family: 'Montserrat', sans-serif;
+}
+html{
+    background-color: white;
+}
+
+#img1{
+    width: 100%;
+    height: 600px;
+}
+
+#navbar {
+    display: flex;
+    margin-left: auto; 
+    padding-right: 1px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: red !important;
+    padding-right: 5%
+    
+}
+
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-link {
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    
+}
+
+#logo{
+   width: auto;
+   height: 50%;   
+}
+
+#imagemLogo{
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+  
+}
+#imagemquemsomos1{
+    width: 300px;
+    height: 500px;
+}
+#imagemquemsomos{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#quemsomos{
+    display:flex
+}
+
+.justificado{
+    text-align: justify;
+}
+.centro{
+    text-align: center;
+}
+#textoquemsomos{
+    margin: 3% 3% 3% 3%;
+
+}
+
+#abu1{
+    font-weight: bold;
+    color: red;
+    font-size: 45px;
+}
+
+#miau1{
+    color: gray;
+    font-size: 22px;
+}
+
+#banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding: 60px 5%;
+  color: white;
+  flex-wrap: wrap;
+  text-align: center;
+  overflow: hidden;
+  height: 300px; 
+}
+
+#banner-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(https://popularmais.com.br/images/noticias/18121/22115713_As_5_princ.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  filter: blur(3px);
+}
+
+.banner-item {
+  flex: 1 1 150px;
+  min-width: 120px;
+  z-index: 1; 
+}
+
+.number {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+#servicos{
+    display:flex;
+}
+#imagemservicos{
+    width: 300px;
+    height: 430px;
+}
+
+#servicosimagem{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#textoservicos{
+    margin: 3% 3% 3% 3%;
+}
+
+#servicos1{
+    background-color: #F7E6FA;
+    padding: 3%;
+}
+
+
+
+.centro {
+  text-align: center;
+}
+
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.servico-box {
+  background-color: white;
+
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.servico-box:hover {
+  transform: scale(1.05);
+}
+
+.servico-box img {
+  width: 100%;
+  
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.servico-box h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.servico-img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.abu2{
+    font-style: bold;
+    color: #1F211D;
+    font-size: 18px;
+}
+
+#miau2{
+    color:red;
+    font-size: 22px;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    display: flex;
+}
+
+#logofooter{
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+
+#footer1{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
